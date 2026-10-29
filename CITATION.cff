@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "YouTube Channel Transcript Fetcher"
+abstract: >-
+  Bulk-export the transcripts (subtitles / captions) of every video on a
+  YouTube channel into one LLM-ready plain-text file. Includes a CLI, a local
+  web UI, view-count and age filters, and proxy support. Built on
+  youtube-transcript-api.
+authors:
+  - family-names: Solaiman
+    given-names: Kadin
+    alias: kydno
+  - family-names: Depoix
+    given-names: Jonas
+repository-code: "https://github.com/kydno/YouTube-Channel-Transcript-Fetcher"
+url: "https://github.com/kydno/YouTube-Channel-Transcript-Fetcher"
+license: MIT
+version: "1.2.4"
+date-released: "2026-05-19"
+keywords:
+  - youtube
+  - youtube transcripts
+  - youtube channel
+  - subtitles
+  - captions
+  - transcript export
+  - llm
+  - rag
+  - yt-dlp
+references:
+  - type: software
+    title: "youtube-transcript-api"
+    authors:
+      - family-names: Depoix
+        given-names: Jonas
+    repository-code: "https://github.com/jdepoix/youtube-transcript-api"
+    license: MIT
